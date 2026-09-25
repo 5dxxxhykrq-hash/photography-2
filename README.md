@@ -1,12 +1,26 @@
 # Photography Portfolio
 
-A single-page editorial photography portfolio built for client-facing presentation.
+A client-facing editorial photography portfolio.
 
-## Sections
-- **ART / 艺术照** — constructed portraiture, colour studies, cinematic work
-- **LIFE / 生活照** — natural-light portraits, street and everyday imagery
+## Structure
+- **ART / 艺术照** — constructed portraiture, colour studies and cinematic experiments
+- **LIFE / 生活照** — natural light, street, travel and everyday portraiture
+- **INFO** — portrait, personal shoot and creative collaboration enquiries
 
-## Viewing
-Open `index.html` locally, or deploy the repository with GitHub Pages.
+## Design
+The site uses an editorial, gallery-led layout rather than a standard masonry portfolio. It includes:
+- asymmetric desktop layouts
+- a dedicated mobile composition
+- full-screen lightbox viewing
+- keyboard and swipe navigation
+- subtle motion with reduced-motion support
+- bilingual English / Chinese labels
 
-The portfolio is fully responsive and includes lazy loading, keyboard navigation, touch-swipe lightbox viewing, reduced-motion support, and image-specific positioning.
+## Images
+The 18 selected photographs are stored as web-optimised WebP previews inside `assets/images.json`. This keeps the project self-contained for GitHub Pages while preserving the originals outside the repository.
+
+## GitHub Pages
+Publish from the `main` branch and `/ (root)` directory in **Settings → Pages**.
+
+## Personalise
+Edit `index.html` to replace the generic **SELECTED / WORKS** wordmark and add your preferred booking contact when ready.
